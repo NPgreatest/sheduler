@@ -1,0 +1,3 @@
+2023/11/07 - 16:58:56.120	info	D:/Golang-Project/sheduler/core/server.go:23	server run success on 	{"address": ":0"}
+2023/11/07 - 17:03:36.126	info	D:/Golang-Project/sheduler/core/server.go:23	server run success on 	{"address": ":0"}
+2023/11/07 - 17:04:19.255	info	D:/Golang-Project/sheduler/core/server.go:23	server run success on 	{"address": ":0"}
