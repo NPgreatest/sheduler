@@ -17,3 +17,11 @@ zap:
   encode-level: LowercaseColorLevelEncoder
   stacktrace-key: stacktrace
   log-in-console: true
+api_keys:
+  apis:
+    0: # 对应 OnlyRead
+      X-VO-Api-Id: "your_only_read_api_id"
+      X-VO-Api-Key: "your_only_read_api_key"
+    1: # 对应 ReadWrite
+      X-VO-Api-Id: "your_read_write_api_id"
+      X-VO-Api-Key: "your_read_write_api_key"

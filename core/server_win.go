@@ -4,14 +4,12 @@
 package core
 
 import (
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"time"
 )
 
 func initServer(address string, router *gin.Engine) server {
-	fmt.Println(address)
 	return &http.Server{
 		Addr:           address,
 		Handler:        router,

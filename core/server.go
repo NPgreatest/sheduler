@@ -16,6 +16,7 @@ func RunWindowsServer() {
 	Router := initialize.Routers()
 
 	address := fmt.Sprintf(":%d", global.GVA_CONFIG.System.Addr)
+	fmt.Println(global.GVA_CONFIG.ApiKeys)
 	s := initServer(address, Router)
 	// 保证文本顺序输出
 	// In order to ensure that the text order output can be deleted
